@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +22,6 @@
             padding: 40px 20px;
         }
 
-        /* HEADER */
         .header {
             text-align: center;
             margin-bottom: 40px;
@@ -37,7 +37,6 @@
             font-size: 17px;
         }
 
-        /* TEAM GRID */
         .team {
             max-width: 1200px;
             margin: auto;
@@ -46,7 +45,6 @@
             gap: 25px;
         }
 
-        /* MEMBER CARD */
         .member {
             background: rgba(255, 255, 255, 0.12);
             backdrop-filter: blur(15px);
@@ -55,16 +53,15 @@
             border-radius: 25px;
             padding: 30px 20px;
             text-align: center;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
             transition: 0.3s ease;
         }
 
         .member:hover {
             transform: translateY(-8px);
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
         }
 
-        /* PROFILE IMAGE */
         .member img {
             width: 140px;
             height: 140px;
@@ -79,7 +76,6 @@
             margin-bottom: 20px;
         }
 
-        /* SOCIAL BUTTONS */
         .button {
             display: block;
             width: 100%;
@@ -116,24 +112,23 @@
         }
 
         /* FEEDBACK BUTTON */
+
         .feedback-container {
             text-align: center;
             margin-top: 45px;
         }
 
         .feedback-button {
-            display: inline-block;
-            padding: 15px 35px;
+            border: none;
+            padding: 15px 38px;
             border-radius: 14px;
             background: linear-gradient(135deg, #00c6ff, #0072ff);
             color: white;
-            text-decoration: none;
             font-size: 17px;
             font-weight: bold;
+            cursor: pointer;
             box-shadow: 0 10px 25px rgba(0, 114, 255, 0.35);
             transition: 0.3s ease;
-            cursor: pointer;
-            border: none;
         }
 
         .feedback-button:hover {
@@ -141,7 +136,8 @@
             box-shadow: 0 15px 35px rgba(0, 114, 255, 0.5);
         }
 
-        /* FEEDBACK POPUP BACKGROUND */
+        /* MODAL */
+
         .feedback-modal {
             display: none;
             position: fixed;
@@ -156,15 +152,14 @@
             padding: 20px;
         }
 
-        /* FEEDBACK BOX */
         .feedback-box {
             width: 100%;
             max-width: 500px;
             background: linear-gradient(135deg, #1f2937, #111827);
-            border: 1px solid rgba(255,255,255,0.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             border-radius: 25px;
             padding: 30px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
             position: relative;
             animation: popup 0.3s ease;
         }
@@ -193,7 +188,6 @@
             margin-bottom: 25px;
         }
 
-        /* CLOSE BUTTON */
         .close-button {
             position: absolute;
             right: 20px;
@@ -209,7 +203,6 @@
             transform: rotate(90deg);
         }
 
-        /* FORM */
         .feedback-box label {
             display: block;
             margin-bottom: 7px;
@@ -223,8 +216,8 @@
             padding: 13px;
             margin-bottom: 18px;
             border-radius: 10px;
-            border: 1px solid rgba(255,255,255,0.2);
-            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.1);
             color: white;
             outline: none;
             font-size: 15px;
@@ -245,7 +238,6 @@
             resize: vertical;
         }
 
-        /* SUBMIT BUTTON */
         .submit-feedback {
             width: 100%;
             padding: 14px;
@@ -263,7 +255,6 @@
             transform: scale(1.03);
         }
 
-        /* SUCCESS MESSAGE */
         .success-message {
             display: none;
             text-align: center;
@@ -279,7 +270,6 @@
             color: #cccccc;
         }
 
-        /* FOOTER */
         footer {
             text-align: center;
             margin-top: 45px;
@@ -287,14 +277,12 @@
             font-size: 14px;
         }
 
-        /* TABLET */
         @media (max-width: 900px) {
             .team {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
 
-        /* MOBILE */
         @media (max-width: 600px) {
 
             body {
@@ -325,19 +313,25 @@
 <body>
 
     <!-- HEADER -->
+
     <div class="header">
+
         <h1>Our Team</h1>
+
         <p>Connect with our five members</p>
+
     </div>
 
 
-    <!-- TEAM MEMBERS -->
+    <!-- TEAM -->
+
     <div class="team">
 
         <!-- MEMBER 1 -->
+
         <div class="member">
 
-            <img src="profile.jpeg" alt="pardhu">
+            <img src="profile.jpeg" alt="Pardhu">
 
             <h2>Pardhu</h2>
 
@@ -362,9 +356,10 @@
 
 
         <!-- MEMBER 2 -->
+
         <div class="member">
 
-            <img src="member2.jpeg" alt="harsha">
+            <img src="member2.jpeg" alt="Harsha">
 
             <h2>Harsha</h2>
 
@@ -389,9 +384,10 @@
 
 
         <!-- MEMBER 3 -->
+
         <div class="member">
 
-            <img src="member3.jpeg" alt="jagadeesh">
+            <img src="member3.jpeg" alt="Jagadeesh">
 
             <h2>Jagadeesh</h2>
 
@@ -416,9 +412,10 @@
 
 
         <!-- MEMBER 4 -->
+
         <div class="member">
 
-            <img src="member4.jpeg" alt="daveedu">
+            <img src="member4.jpeg" alt="Daveedu">
 
             <h2>Daveedu</h2>
 
@@ -443,9 +440,10 @@
 
 
         <!-- MEMBER 5 -->
+
         <div class="member">
 
-            <img src="member5.jpeg" alt="kesava">
+            <img src="member5.jpeg" alt="Kesava">
 
             <h2>Kesava</h2>
 
@@ -472,31 +470,53 @@
 
 
     <!-- FEEDBACK BUTTON -->
+
     <div class="feedback-container">
 
-        <button class="feedback-button" onclick="openFeedback()">
+        <button
+            class="feedback-button"
+            onclick="openFeedback()">
+
             💬 Give Feedback
+
         </button>
 
     </div>
 
 
     <!-- FEEDBACK POPUP -->
-    <div class="feedback-modal" id="feedbackModal">
+
+    <div
+        class="feedback-modal"
+        id="feedbackModal">
 
         <div class="feedback-box">
 
-            <span class="close-button" onclick="closeFeedback()">
+            <span
+                class="close-button"
+                onclick="closeFeedback()">
+
                 &times;
+
             </span>
 
-            <h2>💬 Feedback</h2>
 
-            <p>We would love to hear from you!</p>
+            <h2>
+                💬 Feedback
+            </h2>
 
 
-            <!-- FEEDBACK FORM -->
-            <form id="feedbackForm" onsubmit="submitFeedback(event)">
+            <p>
+                We would love to hear from you!
+            </p>
+
+
+            <form
+                id="feedbackForm"
+                onsubmit="sendFeedback(event)">
+
+
+                <!-- NAME -->
 
                 <label for="name">
                     Your Name
@@ -506,42 +526,60 @@
                     type="text"
                     id="name"
                     placeholder="Enter your name"
-                    required
-                >
+                    required>
 
+
+                <!-- EMAIL -->
+
+                <label for="email">
+                    Your Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required>
+
+
+                <!-- RATING -->
 
                 <label for="rating">
                     Rating
                 </label>
 
-                <select id="rating" required>
+                <select
+                    id="rating"
+                    required>
 
                     <option value="">
                         Select your rating
                     </option>
 
-                    <option value="5">
+                    <option value="⭐⭐⭐⭐⭐ Excellent">
                         ⭐⭐⭐⭐⭐ Excellent
                     </option>
 
-                    <option value="4">
+                    <option value="⭐⭐⭐⭐ Very Good">
                         ⭐⭐⭐⭐ Very Good
                     </option>
 
-                    <option value="3">
+                    <option value="⭐⭐⭐ Good">
                         ⭐⭐⭐ Good
                     </option>
 
-                    <option value="2">
+                    <option value="⭐⭐ Needs Improvement">
                         ⭐⭐ Needs Improvement
                     </option>
 
-                    <option value="1">
+                    <option value="⭐ Poor">
                         ⭐ Poor
                     </option>
 
                 </select>
 
+
+                <!-- FEEDBACK -->
 
                 <label for="message">
                     Your Feedback
@@ -550,26 +588,39 @@
                 <textarea
                     id="message"
                     placeholder="Write your feedback here..."
-                    required
-                ></textarea>
+                    required></textarea>
 
 
                 <button
                     type="submit"
                     class="submit-feedback">
-                    🚀 Submit Feedback
+
+                    📧 Send Feedback
+
                 </button>
 
             </form>
 
 
-            <!-- SUCCESS MESSAGE -->
-            <div class="success-message" id="successMessage">
+            <!-- SUCCESS -->
 
-                <h3>✅ Thank You!</h3>
+            <div
+                class="success-message"
+                id="successMessage">
+
+                <h3>
+                    ✅ Thank You!
+                </h3>
 
                 <p>
-                    Your feedback has been submitted successfully.
+                    Your email has been prepared successfully.
+                </p>
+
+                <br>
+
+                <p>
+                    Please press <b>Send</b> in your email application
+                    to deliver the feedback to our team.
                 </p>
 
             </div>
@@ -580,56 +631,167 @@
 
 
     <!-- FOOTER -->
+
     <footer>
+
         © 2026 Our Team | All Rights Reserved
+
     </footer>
 
 
     <!-- JAVASCRIPT -->
+
     <script>
 
-        /* OPEN FEEDBACK */
         function openFeedback() {
 
-            document.getElementById("feedbackModal").style.display = "flex";
+            document.getElementById(
+                "feedbackModal"
+            ).style.display = "flex";
 
         }
 
 
-        /* CLOSE FEEDBACK */
         function closeFeedback() {
 
-            document.getElementById("feedbackModal").style.display = "none";
+            document.getElementById(
+                "feedbackModal"
+            ).style.display = "none";
 
         }
 
 
-        /* SUBMIT FEEDBACK */
-        function submitFeedback(event) {
+        function sendFeedback(event) {
 
             event.preventDefault();
 
-            document.getElementById("feedbackForm").style.display = "none";
 
-            document.getElementById("successMessage").style.display = "block";
+            const name =
+                document.getElementById(
+                    "name"
+                ).value;
+
+
+            const email =
+                document.getElementById(
+                    "email"
+                ).value;
+
+
+            const rating =
+                document.getElementById(
+                    "rating"
+                ).value;
+
+
+            const message =
+                document.getElementById(
+                    "message"
+                ).value;
+
+
+            const date =
+                new Date().toLocaleString();
+
+
+            /*
+             * ALL FIVE TEAM EMAIL ADDRESSES
+             */
+
+            const recipients =
+                "pardhusurendhra143@gmail.com," +
+                "ivssharsha029@gmail.com," +
+                "jagadeeshramadi@gmail.com," +
+                "karadidaveeduchinnu@gmail.com," +
+                "kesava96521@gmail.com";
+
+
+            const subject =
+                "New Feedback - Our Team";
+
+
+            const body =
+                "NEW FEEDBACK RECEIVED" +
+                "\n\n" +
+
+                "Name: " +
+                name +
+                "\n\n" +
+
+                "Email: " +
+                email +
+                "\n\n" +
+
+                "Rating: " +
+                rating +
+                "\n\n" +
+
+                "Feedback:" +
+                "\n" +
+                message +
+                "\n\n" +
+
+                "Submitted on: " +
+                date;
+
+
+            const mailto =
+                "mailto:" +
+                recipients +
+                "?subject=" +
+                encodeURIComponent(subject) +
+                "&body=" +
+                encodeURIComponent(body);
+
+
+            /*
+             * OPEN EMAIL APPLICATION
+             */
+
+            window.location.href =
+                mailto;
+
+
+            /*
+             * SHOW SUCCESS MESSAGE
+             */
+
+            document.getElementById(
+                "feedbackForm"
+            ).style.display = "none";
+
+
+            document.getElementById(
+                "successMessage"
+            ).style.display = "block";
 
         }
 
 
-        /* CLOSE WHEN CLICKING OUTSIDE THE BOX */
-        window.onclick = function(event) {
+        /*
+         * CLOSE MODAL WHEN CLICKING OUTSIDE
+         */
 
-            const modal = document.getElementById("feedbackModal");
+        window.onclick =
+            function(event) {
 
-            if (event.target === modal) {
+                const modal =
+                    document.getElementById(
+                        "feedbackModal"
+                    );
 
-                closeFeedback();
+                if (
+                    event.target === modal
+                ) {
 
-            }
+                    closeFeedback();
 
-        };
+                }
+
+            };
 
     </script>
 
 </body>
+
 </html>
