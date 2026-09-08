@@ -25,10 +25,6 @@
             padding: 40px 20px;
         }
 
-        /* =========================
-           HEADER
-        ========================= */
-
         .header {
             text-align: center;
             margin-bottom: 40px;
@@ -44,10 +40,6 @@
             font-size: 17px;
         }
 
-        /* =========================
-           TEAM
-        ========================= */
-
         .team {
             max-width: 1200px;
             margin: auto;
@@ -56,49 +48,29 @@
             gap: 25px;
         }
 
-        /* =========================
-           MEMBER CARD
-        ========================= */
-
         .member {
             background: rgba(255, 255, 255, 0.12);
             backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(15px);
-
             border: 1px solid rgba(255, 255, 255, 0.2);
-
             border-radius: 25px;
-
             padding: 30px 20px;
-
             text-align: center;
-
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-
             transition: 0.3s ease;
         }
 
         .member:hover {
             transform: translateY(-8px);
-
-            box-shadow:
-                0 20px 50px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
         }
-
-        /* =========================
-           PROFILE IMAGE
-        ========================= */
 
         .member img {
             width: 140px;
             height: 140px;
-
             object-fit: cover;
-
             border-radius: 50%;
-
             border: 4px solid white;
-
             margin-bottom: 18px;
         }
 
@@ -107,35 +79,21 @@
             margin-bottom: 20px;
         }
 
-        /* =========================
-           SOCIAL BUTTONS
-        ========================= */
-
         .button {
             display: block;
-
             width: 100%;
-
             padding: 13px;
-
             margin: 10px 0;
-
             border-radius: 12px;
-
             color: white;
-
             text-decoration: none;
-
             font-weight: bold;
-
             transition: 0.3s;
         }
 
         .button:hover {
             transform: scale(1.03);
         }
-
-        /* INSTAGRAM */
 
         .instagram {
             background: linear-gradient(
@@ -148,13 +106,9 @@
             );
         }
 
-        /* WHATSAPP */
-
         .whatsapp {
             background: #25D366;
         }
-
-        /* EMAIL */
 
         .gmail {
             background: #EA4335;
@@ -171,32 +125,20 @@
 
         .feedback-button {
             display: inline-block;
-
             padding: 15px 38px;
-
             border: none;
-
             border-radius: 14px;
-
-            background:
-                linear-gradient(
-                    135deg,
-                    #00c6ff,
-                    #0072ff
-                );
-
+            background: linear-gradient(
+                135deg,
+                #00c6ff,
+                #0072ff
+            );
             color: white;
-
             font-size: 17px;
-
             font-weight: bold;
-
             cursor: pointer;
-
             box-shadow:
-                0 10px 25px
-                rgba(0, 114, 255, 0.35);
-
+                0 10px 25px rgba(0, 114, 255, 0.35);
             transition: 0.3s ease;
         }
 
@@ -204,10 +146,8 @@
             transform:
                 translateY(-4px)
                 scale(1.03);
-
             box-shadow:
-                0 15px 35px
-                rgba(0, 114, 255, 0.5);
+                0 15px 35px rgba(0, 114, 255, 0.5);
         }
 
         /* =========================
@@ -216,98 +156,67 @@
 
         .feedback-modal {
             display: none;
-
             position: fixed;
-
             z-index: 1000;
-
             left: 0;
             top: 0;
-
             width: 100%;
             height: 100%;
-
-            background:
-                rgba(0, 0, 0, 0.75);
-
+            background: rgba(0, 0, 0, 0.75);
             justify-content: center;
             align-items: center;
-
             padding: 20px;
         }
 
-        /* =========================
-           FEEDBACK BOX
-        ========================= */
-
         .feedback-box {
             width: 100%;
-
             max-width: 500px;
-
             max-height: 90vh;
-
             overflow-y: auto;
 
-            background:
-                linear-gradient(
-                    135deg,
-                    #1f2937,
-                    #111827
-                );
+            background: linear-gradient(
+                135deg,
+                #1f2937,
+                #111827
+            );
 
             border:
-                1px solid
-                rgba(255,255,255,0.2);
+                1px solid rgba(255, 255, 255, 0.2);
 
             border-radius: 25px;
 
             padding: 30px;
 
             box-shadow:
-                0 20px 60px
-                rgba(0,0,0,0.6);
+                0 20px 60px rgba(0, 0, 0, 0.6);
 
             position: relative;
 
-            animation:
-                popup 0.3s ease;
+            animation: popup 0.3s ease;
         }
 
         @keyframes popup {
 
             from {
                 opacity: 0;
-
-                transform:
-                    scale(0.8);
+                transform: scale(0.8);
             }
 
             to {
                 opacity: 1;
-
-                transform:
-                    scale(1);
+                transform: scale(1);
             }
         }
 
-        /* =========================
-           FEEDBACK TITLE
-        ========================= */
-
         .feedback-box h2 {
             text-align: center;
-
             margin-bottom: 10px;
-
             font-size: 28px;
         }
 
         .feedback-box > p {
             text-align: center;
-
             color: #cccccc;
-
             margin-bottom: 25px;
         }
 
@@ -317,25 +226,17 @@
 
         .close-button {
             position: absolute;
-
             right: 20px;
-
             top: 15px;
-
             font-size: 30px;
-
             color: white;
-
             cursor: pointer;
-
             transition: 0.3s;
         }
 
         .close-button:hover {
             color: #ff4d4d;
-
-            transform:
-                rotate(90deg);
+            transform: rotate(90deg);
         }
 
         /* =========================
@@ -344,9 +245,7 @@
 
         .feedback-box label {
             display: block;
-
             margin-bottom: 7px;
-
             font-weight: bold;
         }
 
@@ -363,8 +262,7 @@
             border-radius: 10px;
 
             border:
-                1px solid
-                rgba(255,255,255,0.2);
+                1px solid rgba(255,255,255,0.2);
 
             background:
                 rgba(255,255,255,0.1);
@@ -432,16 +330,13 @@
         }
 
         .submit-feedback:disabled {
-
             opacity: 0.6;
-
             cursor: not-allowed;
-
             transform: none;
         }
 
         /* =========================
-           ERROR MESSAGE
+           ERROR
         ========================= */
 
         .error-message {
@@ -452,8 +347,7 @@
                 rgba(255, 0, 0, 0.15);
 
             border:
-                1px solid
-                rgba(255, 0, 0, 0.4);
+                1px solid rgba(255, 0, 0, 0.4);
 
             color: #ff8a8a;
 
@@ -467,7 +361,7 @@
         }
 
         /* =========================
-           SUCCESS MESSAGE
+           SUCCESS
         ========================= */
 
         .success-message {
@@ -480,9 +374,7 @@
         }
 
         .success-icon {
-
             font-size: 55px;
-
             margin-bottom: 15px;
         }
 
@@ -510,8 +402,7 @@
 
             border-radius: 10px;
 
-            background:
-                #0072ff;
+            background: #0072ff;
 
             color: white;
 
@@ -542,7 +433,6 @@
         @media (max-width: 900px) {
 
             .team {
-
                 grid-template-columns:
                     repeat(2, 1fr);
             }
@@ -555,41 +445,26 @@
         @media (max-width: 600px) {
 
             body {
-
-                padding:
-                    25px 15px;
+                padding: 25px 15px;
             }
 
             .header h1 {
-
                 font-size: 32px;
             }
 
             .team {
-
-                grid-template-columns:
-                    1fr;
+                grid-template-columns: 1fr;
             }
 
             .member {
-
-                max-width:
-                    400px;
-
-                margin:
-                    auto;
-
-                width:
-                    100%;
+                max-width: 400px;
+                margin: auto;
+                width: 100%;
             }
 
             .feedback-box {
-
-                padding:
-                    25px 20px;
-
-                border-radius:
-                    20px;
+                padding: 25px 20px;
+                border-radius: 20px;
             }
         }
 
@@ -619,7 +494,7 @@
 
 
     <!-- =========================
-         TEAM MEMBERS
+         TEAM
     ========================= -->
 
     <div class="team">
@@ -829,7 +704,6 @@
 
         </div>
 
-
     </div>
 
 
@@ -864,7 +738,7 @@
         <div class="feedback-box">
 
 
-            <!-- CLOSE BUTTON -->
+            <!-- CLOSE -->
 
             <span
                 class="close-button"
@@ -875,8 +749,6 @@
 
             </span>
 
-
-            <!-- TITLE -->
 
             <h2>
                 💬 Feedback
@@ -893,8 +765,10 @@
                 class="error-message"
                 id="errorMessage"
             >
+
                 ❌ Something went wrong.
                 Please try again.
+
             </div>
 
 
@@ -905,6 +779,7 @@
             <form
                 id="feedbackForm"
             >
+
 
                 <!-- NAME -->
 
@@ -934,6 +809,26 @@
                     name="email"
                     placeholder="Enter your email"
                     autocomplete="email"
+                    required
+                >
+
+
+                <!-- MOBILE NUMBER -->
+
+                <label for="phone">
+                    Mobile Number
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your mobile number"
+                    autocomplete="tel"
+                    inputmode="numeric"
+                    pattern="[0-9]{10}"
+                    maxlength="10"
+                    minlength="10"
                     required
                 >
 
@@ -991,19 +886,12 @@
                 ></textarea>
 
 
-                <!-- WEBSITE IDENTIFICATION -->
+                <!-- SUBJECT -->
 
                 <input
                     type="hidden"
                     name="_subject"
                     value="New Feedback - Our Team"
-                >
-
-
-                <input
-                    type="hidden"
-                    name="_format"
-                    value="plain"
                 >
 
 
@@ -1049,7 +937,9 @@
                     class="close-success"
                     onclick="closeFeedback()"
                 >
+
                     Close
+
                 </button>
 
             </div>
@@ -1077,17 +967,17 @@
 
     <script>
 
-        /* =====================================
-           FORMSPREE ENDPOINT
-        ===================================== */
+        /*
+         * YOUR FORMSPREE ENDPOINT
+         */
 
         const FORMSPREE_ENDPOINT =
             "https://formspree.io/f/mljepkjk";
 
 
-        /* =====================================
+        /* =========================
            OPEN FEEDBACK
-        ===================================== */
+        ========================= */
 
         function openFeedback() {
 
@@ -1098,9 +988,9 @@
         }
 
 
-        /* =====================================
+        /* =========================
            CLOSE FEEDBACK
-        ===================================== */
+        ========================= */
 
         function closeFeedback() {
 
@@ -1108,16 +998,16 @@
                 .getElementById("feedbackModal")
                 .style.display = "none";
 
-            resetFeedbackForm();
+            resetFeedback();
 
         }
 
 
-        /* =====================================
-           RESET FORM
-        ===================================== */
+        /* =========================
+           RESET FEEDBACK
+        ========================= */
 
-        function resetFeedbackForm() {
+        function resetFeedback() {
 
             const form =
                 document.getElementById(
@@ -1146,9 +1036,9 @@
         }
 
 
-        /* =====================================
+        /* =========================
            SUBMIT FEEDBACK
-        ===================================== */
+        ========================= */
 
         document
             .getElementById("feedbackForm")
@@ -1187,7 +1077,7 @@
                         "none";
 
 
-                    /* Disable submit */
+                    /* Disable button */
 
                     submitButton.disabled =
                         true;
@@ -1199,9 +1089,9 @@
 
                     try {
 
-                        /* =========================
-                           SEND TO FORMSPREE
-                        ========================= */
+                        /*
+                         * SEND FORM TO FORMSPREE
+                         */
 
                         const response =
                             await fetch(
@@ -1220,9 +1110,9 @@
                             );
 
 
-                        /* =========================
-                           SUCCESS
-                        ========================= */
+                        /*
+                         * SUCCESS
+                         */
 
                         if (response.ok) {
 
@@ -1236,9 +1126,10 @@
 
                         }
 
-                        /* =========================
-                           ERROR
-                        ========================= */
+
+                        /*
+                         * ERROR
+                         */
 
                         else {
 
@@ -1266,9 +1157,12 @@
 
                                 }
 
-                            } catch (e) {
+                            }
+                            catch (e) {
 
-                                /* Keep default error */
+                                console.log(
+                                    "Could not read error response."
+                                );
 
                             }
 
@@ -1284,7 +1178,6 @@
                         }
 
                     }
-
                     catch (error) {
 
                         console.error(
@@ -1303,7 +1196,7 @@
                     }
 
 
-                    /* Re-enable button */
+                    /* Enable button again */
 
                     submitButton.disabled =
                         false;
@@ -1315,9 +1208,9 @@
             );
 
 
-        /* =====================================
-           CLOSE WHEN CLICKING OUTSIDE
-        ===================================== */
+        /* =========================
+           CLOSE OUTSIDE MODAL
+        ========================= */
 
         window.addEventListener(
             "click",
@@ -1327,7 +1220,6 @@
                     document.getElementById(
                         "feedbackModal"
                     );
-
 
                 if (
                     event.target === modal
@@ -1341,9 +1233,9 @@
         );
 
 
-        /* =====================================
-           ESC KEY CLOSE
-        ===================================== */
+        /* =========================
+           ESC KEY
+        ========================= */
 
         document.addEventListener(
             "keydown",
@@ -1360,8 +1252,32 @@
             }
         );
 
-    </script>
 
+        /* =========================
+           MOBILE NUMBER VALIDATION
+        ========================= */
+
+        document
+            .getElementById("phone")
+            .addEventListener(
+                "input",
+                function() {
+
+                    this.value =
+                        this.value
+                            .replace(
+                                /[^0-9]/g,
+                                ""
+                            )
+                            .slice(
+                                0,
+                                10
+                            );
+
+                }
+            );
+
+    </script>
 
 </body>
 
